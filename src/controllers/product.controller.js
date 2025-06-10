@@ -2,6 +2,8 @@ const model = require('../models/product.model');
 const { createSuccessResponse, createErrorResponse } = require('../utils/response');
 
 const addProduct = async (req, res) => {
+   console.log(`[TESTE DE EXECUÇÃO] Função 'addProduct' foi chamada em: ${new Date()}`)
+
   try {
     const product = await model.createProduct(req.body);
     res.status(201).json(createSuccessResponse(product));
