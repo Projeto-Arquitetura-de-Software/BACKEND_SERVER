@@ -19,5 +19,5 @@ O código está estruturado em camadas, seguindo uma variação do padrão Model
 * PostgreSQL
 * `pg` (Node.js Driver)
 
-## Feito por
+## Desenvolvido por
 * Victor De Mesquita 
